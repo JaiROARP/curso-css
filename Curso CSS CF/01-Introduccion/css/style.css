@@ -1,0 +1,43 @@
+/*SELECTOR UNIVERSAL
+* {
+    margin: 2;
+    padding: 2;
+    color: blueviolet;
+    font-size: 25px;
+}
+*/
+
+/*SELECTOR DE TIPO O ETIQUETA
+h2 {
+    color: orange;
+    font-size: 30px;
+}
+
+/*SELECTOR DE CLASE
+.titulo {
+    color: orangered;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+#titulo {
+    color: steelblue;
+    font-size: 50px;
+}
+*/
+
+/*COMBINADOR DE DESCENDIENTES*/
+.abuelito .titulo {
+    color: red;
+    font-size: 40px;
+}
+
+/*Al poner > solo selecciona a los hijos directos de abuelito*/
+.abuelito>.titulo {
+    color: blue;
+}
+
