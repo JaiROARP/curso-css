@@ -5,5 +5,12 @@ font-size: 20px;
 font-family: Arial, Helvetica, sans-serif;
 width: 200px;
 height: 200px;
+
+/*PADDINg*/
 padding: 30px;
+
+/*BORDER*/
+border-color: purple;
+border-style: dotted dashed solid double;
+border-width: 20px 10px 5px 50px;
 }
