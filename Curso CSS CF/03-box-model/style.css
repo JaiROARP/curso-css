@@ -14,3 +14,25 @@ border-color: purple;
 border-style: dotted dashed solid double;
 border-width: 20px 10px 5px 20px;
 }
+
+.caja1 {
+    margin: 20px auto;
+}
+
+.main {
+    background-color: steelblue;
+    color: white;
+    margin-bottom: 80px;
+    /* margin-top: 40px; */
+    padding: .1px;
+}
+
+.main-title {
+    margin-top: 40px;
+}
+
+.footer {
+    background-color: slateblue;
+    color: white;
+    margin-top: 50px;
+}
