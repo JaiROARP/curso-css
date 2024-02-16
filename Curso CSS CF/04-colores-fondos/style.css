@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    margin: 70px;
+    color: darkslategrey;
+    /* rgb o rgba -> Red Green Blue, Alpha */
+    color: rgba(255, 105, 180, 0.5);  
+    /* Hexadecimal */ 
+    color: #e05bd5;
+    /* HSL (Hue Saturation Lightness) */
+    color: hsl(200, 100%, 50%);
+    
+    
+}
+
+.background {
+    
+    height: 600px;
+    /* margin: 50px; */
+    background-color: #4682b4;
+    /* background-image: url('./img/namichiquita.png');
+    background-size: 150px;
+    background-repeat: no-repeat;     */
+    /*background-position: center; */ /*top bottom left right center*/
+
+    background-image: linear-gradient(rgb(255, 105, 180, 0.527), rgb(70, 131, 180, 0.534)), url('./img/namichiquita.png');
+    background-size: cover;
+    background-position: center;
+    padding: .1px;
+}
+
+h2 {
+    margin-top: 27px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+}
