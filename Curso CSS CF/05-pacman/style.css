@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pacman {
+    width: 100px;
+    margin: 80px;
+    border-bottom: 100px solid yellow;
+    border-top: 100px solid yellow;
+    border-left: 100px solid yellow;
+    border-right: 100px solid transparent;
+    
+
+    border-radius: 50%;
+}
+
+.background {
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
