@@ -27,21 +27,25 @@ img {
     /* letter-spacing: 5px; */
     /* word-spacing: 40px; */
     /* width: 150px; */
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     overflow-wrap: break-word;   
     text-align: center; 
+    font-size: 50px;
 }
 
 
 .paragraph {
     text-transform: uppercase;
+    font-style: italic;
+    /* font-size: 30px; */
+    line-height: 1.5;
 }
 
 .paragraph--first {
     text-transform: lowercase;
     margin-top: 10px;
     margin-bottom: 20px;
-    border: 1px solid crimson;
+    /* border: 1px solid crimson; */
     font-weight: 900;
     font-style: italic;
 }
