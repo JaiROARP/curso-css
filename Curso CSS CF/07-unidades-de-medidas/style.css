@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* html {
+    font-size: 16px; /*Esta es la unidad de medida estandar del html /
+} */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;   
+    
+}
+
+.container {
+    background-color: slateblue;
+    color: #fff;
+    /* padding: 30px; */
+    /* font-size: 30px; */
+    height: 100vh;
+    width: 100%;
+}
+
+.item {
+    width: 50%;
+    background-color: tomato;
+    height: 50%;
+}
+
+.title {
+    margin-bottom: 20px;
+    border: 1px solid white;
+}
+
+.primero {
+    font-size: 1.5rem;
+}
+
+/* 1rem = 16px
+La medida rem es relativa al tamaño de la fuente del elemento raíz. (html)
+*/
+
+.segundo, .tercero {
+    /* font-size: 24px; */
+}
+
+.cuarto {
+    /* font-size: 2em; */
+    /* padding: 2em 0; */
+}
+
+/*La medida em es relativa al tamaño de la fuente del elemento padre mas cercado que tenga definido un font-size.
+
+En este caso, el elemento .container tiene un font-size de 30px, por lo que el elemento .cuarto tendrá un font-size de 60px (30px * 2em).
+*/
+
