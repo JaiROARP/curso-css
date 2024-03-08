@@ -42,16 +42,21 @@ body {
     line-height: 100px;
     width: 100px;
     height: 100px;
+
+    order: 
 }
 
 .element1 {
     background-color: crimson;
+    order: 3;
 }
 
 .element2 {
     background-color: purple;    
+    order: 1;
 }
 
 .element3 {
     background-color: steelblue;
+    order: 2;
 }
